@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pallet']
+
+roboflow:
+  workspace: runwayws
+  project: pallet-detection-zmcob
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/runwayws/pallet-detection-zmcob/dataset/1
